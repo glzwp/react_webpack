@@ -43,10 +43,26 @@
     <Folder Include="tests" />
     <Folder Include="typings\" />
     <Folder Include="typings\globals\" />
+    <Folder Include="typings\globals\alt\" />
+    <Folder Include="typings\globals\html-webpack-plugin\" />
+    <Folder Include="typings\globals\karma\" />
     <Folder Include="typings\globals\node\" />
+    <Folder Include="typings\globals\react-dnd\" />
+    <Folder Include="typings\globals\uuid\" />
+    <Folder Include="typings\globals\webpack-dev-server\" />
+    <Folder Include="typings\globals\webpack-merge\" />
+    <Folder Include="typings\globals\webpack-validator\" />
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="typings\globals\alt\index.d.ts" />
+    <TypeScriptCompile Include="typings\globals\html-webpack-plugin\index.d.ts" />
+    <TypeScriptCompile Include="typings\globals\karma\index.d.ts" />
     <TypeScriptCompile Include="typings\globals\node\index.d.ts" />
+    <TypeScriptCompile Include="typings\globals\react-dnd\index.d.ts" />
+    <TypeScriptCompile Include="typings\globals\uuid\index.d.ts" />
+    <TypeScriptCompile Include="typings\globals\webpack-dev-server\index.d.ts" />
+    <TypeScriptCompile Include="typings\globals\webpack-merge\index.d.ts" />
+    <TypeScriptCompile Include="typings\globals\webpack-validator\index.d.ts" />
     <TypeScriptCompile Include="typings\index.d.ts" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
